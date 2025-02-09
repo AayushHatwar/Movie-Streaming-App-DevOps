@@ -107,7 +107,7 @@ app.post('/movies', (req, res) => {
           console.error('Error inserting movie:', err);
           res.status(500).json({ error: 'Internal Server Error' });
         } else {
-          res.status(201).json({ message: 'Movie registered successfully', movieId: result.insertId });
+          res.status(201).json({ message: 'Movie registered successfully......!!!!!', movieId: result.insertId });
         }
       });
     } catch (error) {
